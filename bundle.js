@@ -9504,8 +9504,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
           }, o));
         } }, { key: "render", value: function value() {
           var e,
-              t = (this.props.show, this.state.showSnackBar),
-              r = (e = { position: "fixed", left: "20px", bottom: "20px", background: "#404040", color: "#fff", padding: "14px", WebkitTransition: "translate 0.3s cubic-bezier(0, 0, 0.30, 1)", transition: "translate 0.3s cubic-bezier(0, 0, 0.30, 1)", fontWeight: "500", textTransform: "initial", willChange: "transform", whiteSpace: "nowrap", transform: "translateY(20px)", WebkitTransform: "translateY(20px)", boxShadow: "0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24)", fontSize: "14px", opacity: 0, borderRadius: "3px", display: "-webkit-box" }, o(e, "display", "-ms-flexbox"), o(e, "display", "flex"), o(e, "WebkitBoxAlign", "center"), o(e, "msFlexAlign", "center"), o(e, "alignItems", "center"), o(e, "WebkitBoxPack", "justify"), o(e, "msFlexPack", "justify"), o(e, "justifyContent", "space-between"), o(e, "lineHeight", "20px"), e);return t && (r.opacity = 1, r.transform = "translateY(0)"), f.default.createElement("div", { style: r }, this.props.children);
+              t = this.props,
+              r = (t.show, t.customClass),
+              n = this.state.showSnackBar,
+              i = (e = { position: "fixed", left: "20px", bottom: "20px", background: "#404040", color: "#fff", padding: "14px", WebkitTransition: "translate 0.3s cubic-bezier(0, 0, 0.30, 1)", transition: "translate 0.3s cubic-bezier(0, 0, 0.30, 1)", fontWeight: "500", textTransform: "initial", willChange: "transform", whiteSpace: "nowrap", transform: "translateY(20px)", WebkitTransform: "translateY(20px)", boxShadow: "0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24)", fontSize: "14px", opacity: 0, borderRadius: "3px", display: "-webkit-box" }, o(e, "display", "-ms-flexbox"), o(e, "display", "flex"), o(e, "WebkitBoxAlign", "center"), o(e, "msFlexAlign", "center"), o(e, "alignItems", "center"), o(e, "WebkitBoxPack", "justify"), o(e, "msFlexPack", "justify"), o(e, "justifyContent", "space-between"), o(e, "lineHeight", "20px"), e);return n && (i.opacity = 1, i.transform = "translateY(0)"), f.default.createElement("div", { class: r, style: i }, this.props.children);
         } }]), t;
     }(c.Component);t.default = p, p.defaultProps = { show: "false" }, p.propTypes = { show: f.default.PropTypes.bool.isRequired, timer: f.default.PropTypes.number };
   }]);
