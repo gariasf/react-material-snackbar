@@ -48,14 +48,14 @@
     "material snackbar",
     "react material snackbar"
   ],
-  "homepage": "http://github.com/gokulkrishh/react-snackbar#readme",
+  "homepage": "https://github.com/gariasf/react-material-snackbar#readme",
   "bugs": {
-    "url": "https://github.com/gokulkrishh/react-snackbar/issues"
+    "url": "https://github.com/gariasf/react-material-snackbar/issues"
   },
-  "author": "Gokulakrishnan Kalaikovan <krishnangokul9@gmail.com> (http://github.com/gokulkrishh)",
+  "author": "Guilem Arias <hello@gariasf.com> (http://github.com/gariasf)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gokulkrishh/react-snackbar.git"
+    "url": "git+https://github.com/gariasf/react-material-snackbar.git"
   },
   "license": "MIT"
 }

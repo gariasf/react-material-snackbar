@@ -24,7 +24,7 @@ export default class SnackBar extends Component {
   }
 
   render() {
-    const {show} = this.props;
+    const { show, customClass } = this.props;
     const {showSnackBar} = this.state;
     const snackbarStyle = {
       position: "fixed",
@@ -63,7 +63,7 @@ export default class SnackBar extends Component {
     }
 
     return(
-      <div style={snackbarStyle}>
+      <div className={customClass} style={snackbarStyle}>
         {this.props.children}
       </div>
     );
