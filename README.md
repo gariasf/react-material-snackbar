@@ -1,30 +1,31 @@
-# react-material-snackbar [![Build Status](https://travis-ci.org/gokulkrishh/react-material-snackbar.svg?branch=master)](https://travis-ci.org/gokulkrishh/react-material-snackbar)
+# react-material-snackbar-custom-classname [![Build Status](https://travis-ci.org/gariasf/react-material-snackbar-custom-classname.svg?branch=master)](https://travis-ci.org/gariasf/react-material-snackbar-custom-classname)
 
 *A material design snackbar react component (2KB gzipped)*
 
-> Created using [react-component-boilerplate](https://github.com/gokulkrishh/react-component-boilerplate/)
+> Created using [react-material-snackbar-custom-classname](https://github.com/gariasf/react-material-snackbar-custom-classname/)
 
-### [Demo](https://gokulkrishh.github.io/react-material-snackbar/)
+### [Demo](https://gariasf.github.io/react-material-snackbar-custom-classname/)
 
 ### Installation
 
 ```sh
-npm install --save react-material-snackbar
+npm install --save react-material-snackbar-custom-classname
 ```
 or 
 
 ```sh
-yarn add react-material-snackbar
+yarn add react-material-snackbar-custom-classname
 ```
 
 ### Usage
 
 ```js
-import SnackBar from 'react-material-snackbar';
+import SnackBar from 'react-material-snackbar-custom-classname';
 
 <SnackBar
   show={true}                            //Boolean  - Required and Default - `false`
   timer={6000}                           //Number   - Optional and Default - `4000` (4 secs)
+  customClass={...}                      //String   - Optional
 >
   // Pass any HTML element to render
   <p>Loading...</p>
@@ -33,4 +34,5 @@ import SnackBar from 'react-material-snackbar';
 
 ## License
 
-MIT © [Gokulakrishnan Kalaikovan](https://github.com/gokulkrishh)
+Original package MIT © [Gokulakrishnan Kalaikovan](https://github.com/gokulkrishh)
+Thi version MIT [Guillem Arias](https://github.com/gariasf)

@@ -1,6 +1,6 @@
 {
-  "name": "react-material-snackbar",
-  "version": "3.0.0",
+  "name": "react-material-snackbar-custom-classname",
+  "version": "3.1.0",
   "description": "A material design snackbar react component.",
   "main": "dist/index.js",
   "devDependencies": {

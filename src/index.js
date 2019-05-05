@@ -63,7 +63,7 @@ export default class SnackBar extends Component {
     }
 
     return(
-      <div className={customClass} style={snackbarStyle}>
+      <div className={customClass || ''} style={snackbarStyle}>
         {this.props.children}
       </div>
     );
